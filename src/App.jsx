@@ -73,7 +73,7 @@ function App() {
   };
 
   useEffect(() => {
-    const initialBurgers = Array.from({ length: 100 }, () => ({
+    const initialBurgers = Array.from({ length: 69 }, () => ({
       id: generateId(),
       position: getRandomPosition(),
       speed: Math.random() * 4 + 1,
