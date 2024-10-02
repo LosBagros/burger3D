@@ -89,8 +89,7 @@ function App() {
         gl={{ antialias: true, alpha: true }}
       >
         <Suspense fallback={null}>
-          <ambientLight intensity={0.5} />
-          <pointLight position={[10, 30, 10]} intensity={1} castShadow />
+          <ambientLight intensity={1.3} />
           {burgers.map((burger) => (
             <Burger
               key={burger.id}
